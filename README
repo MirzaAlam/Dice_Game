@@ -1,0 +1,23 @@
+
+def dice game (guess, secret_number)
+   puts "enter your guess"
+   guess=gets.chomp
+   if guess=secret_number 
+   puts "Congratulations you win"
+   else guess!=secret_number
+   puts "Sorry try again"
+end
+
+def game loss (guesses, chances)
+   if guesses>chances 
+   puts "Sorry you lose"
+   exit 
+end
+
+@secret_number==4
+@chances==4
+
+greeter
+while guesses<chances
+dice game
+game loss
