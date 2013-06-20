@@ -1,3 +1,16 @@
+def greeter
+   puts "Hello nerd"
+   puts "What is your name?"
+   name=gets.chomp
+   puts "Welcome to the dice game #{name}"
+   puts"You will have 3 guesses to get the random number. Guess wrong 3 times and you lose the game".
+end
+
+while guesses<chances (guesses, check_guess, secret_number)
+   guesses=gets.chomp
+   check_guess(secret_number>guesses)
+   @guesses=guesses+1
+end
 
 def dice game (guess, secret_number)
    puts "enter your guess"
